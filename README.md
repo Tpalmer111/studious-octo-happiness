@@ -13,3 +13,24 @@
     2. Get the clone, and use ```git clone``` to save the repository in a new directory.
     3. Open file in VSCode using ```code .```
  4. Use the ```node``` command followed by the file name to run the file using node.
+
+
+ ##__Class notes__
+
+### new npm project
+
+1. Setting up javaScript in terminal:
+    * Make a directory and cd into the new project direrctory.
+    * npm init to create a package.json file
+    * Touch index.js or other main entry point file
+2. Set up the git repo
+    * run git init to create a new repo directory
+    * create a git ignore file ```echo node_,odule >> .gitignore```
+    * check to make sure node_modules folder is not being tracked with a git status
+    * add and commit your work ```git commit -m "message"```
+
+### cloning a project down
+
+1. Create new project
+    * clone ansd repo onto your local and cd into new directory
+    * run and install the requiered packages from the package.json
